@@ -4,14 +4,16 @@
 [![API](https://img.shields.io/badge/API-14%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 Android AsyncTask using kotlin Coroutines
-```
+<pre>
+<code>
 Important notice:
 > You'll be better off just using plain Coroutine for day to day
  tasks.
 > There's a problem with adding library which you can't download
- it, but you can use this ![code snippet](https://github.com/alibardide5124/AsyncTaskNeo/blob/main/AsyncTaskNeo/src/main/java/com/alibardide/asynctaskneo/AsyncTaskNeo.kt)
-```
-<br/>
+ it, but you can use this <a href="https://github.com/alibardide5124/AsyncTaskNeo/blob/main/AsyncTaskNeo/src/main/java/com/alibardide/asynctaskneo/AsyncTaskNeo.kt">code snippet</a>
+ </code>
+</pre>
+
 After AsyncTask deprecated on API 29, I was looking for something to replace it with. And i found this soloution using `Kotlin Coroutins` on StackOverflow. So i decided to publish it as a library. Maybe someone needs this.
 
 Implement
