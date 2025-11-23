@@ -10,7 +10,7 @@ Important notice:
 > You'll be better off just using plain Coroutine for day to day
  tasks.
 > There's a problem with adding library which you can't download
- it, but you can use this <a href="https://github.com/alibardide5124/AsyncTaskNeo/blob/main/AsyncTaskNeo/src/main/java/com/alibardide/asynctaskneo/AsyncTaskNeo.kt">code snippet</a>
+ it, but you can use this <a href="https://github.com/alibardide-dev/AsyncTaskNeo/blob/main/AsyncTaskNeo/src/main/java/com/alibardide/asynctaskneo/AsyncTaskNeo.kt">code snippet</a>
  </code>
 </pre>
 
@@ -30,7 +30,7 @@ allprojects {
 Then Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.alibardide5124:AsyncTaskNeo:LEAST_VERSION'
+    implementation 'com.github.alibardide-dev:AsyncTaskNeo:1.0.0'
 }
 ```
 Usage
@@ -63,4 +63,4 @@ note: You will get `inappropriate blocking method` call warning. But don't mind 
 I grabed this code from StackOverFlow and made this library for myself, but I forgot where I found it.
 
 ## License
-AsyncTaskNeo created by [Ali Bardide](https://github.com/alibardide5124) and it's licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+AsyncTaskNeo created by [Ali Bardide](https://github.com/alibardide-dev) and it's licensed under a [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
